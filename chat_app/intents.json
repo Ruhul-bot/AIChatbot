@@ -1,0 +1,313 @@
+
+
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Is anyone there?",
+          "Hi there",
+          "Hello there",
+          "Greetings"
+        ],
+        "responses": [
+          "Hello! Welcome to Jorhat Engineering College's chatbot. How can I help you today?",
+          "Hi there! I'm JEC's virtual assistant. What would you like to know about our college?",
+          "Greetings! I'm here to help you with information about JEC. What can I assist you with?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care",
+          "Thanks bye",
+          "Thank you, goodbye",
+          "That's all for now",
+          "Until next time"
+        ],
+        "responses": [
+          "Goodbye! Feel free to come back if you have more questions.",
+          "Thank you for chatting! Have a great day!",
+          "Goodbye! Reach out anytime for more information about JEC."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping",
+          "That's great",
+          "I appreciate it"
+        ],
+        "responses": [
+          "You're welcome! Let me know if you need anything else.",
+          "Happy to help! Feel free to ask more questions.",
+          "You're welcome! Is there anything else you'd like to know about JEC?"
+        ]
+      },
+      {
+        "tag": "btech_admission",
+        "patterns": [
+          "How to get admission in B.Tech?",
+          "What are B.Tech admission requirements?",
+          "Tell me about B.Tech eligibility",
+          "B.Tech admission process",
+          "How can I apply for B.Tech?",
+          "What is the admission criteria for engineering?",
+          "B.Tech entrance requirements",
+          "Engineering admission procedure",
+          "What marks are needed for B.Tech?",
+          "How to join B.Tech program?"
+        ],
+        "responses": [
+          "For B.Tech admission at JEC, you need to meet these criteria:\n1. Pass Higher Secondary with Physics, Chemistry, and Mathematics\n2. Be a resident of Assam\n3. Minimum 50% in PCM for general category (relaxation for SC/ST)\n4. Age between 17-21 years\n5. Admission is merit-based through centralized counseling via Directorate of Technical Education, Assam"
+        ]
+      },
+      {
+        "tag": "lateral_entry",
+        "patterns": [
+          "Is lateral entry possible?",
+          "Can diploma holders apply?",
+          "Lateral entry admission process",
+          "How to apply for lateral entry?",
+          "Direct admission to second year",
+          "Diploma to B.Tech transfer",
+          "Second year direct admission",
+          "Lateral entry eligibility",
+          "Can I join in second year?",
+          "Lateral entry entrance exam"
+        ],
+        "responses": [
+          "Yes, JEC offers lateral entry to B.Tech programs for diploma holders:\n1. Must apply through Lateral Entrance Examination\n2. Admission is merit-based\n3. Entry is directly to second year\n4. Contact the admissions office for current application deadlines and procedures"
+        ]
+      },
+      {
+        "tag": "mca_admission",
+        "patterns": [
+          "How to apply for MCA?",
+          "MCA admission process",
+          "What is required for MCA?",
+          "MCA entrance exam",
+          "MCA eligibility criteria",
+          "Tell me about MCA admission",
+          "Can I apply for MCA?",
+          "MCA program requirements",
+          "JMEE exam details",
+          "MCA application process"
+        ],
+        "responses": [
+          "For MCA admission at JEC:\n1. Must qualify in JMEE (Joint MCA Entrance Examination)\n2. Admission is merit-based\n3. Contact the admissions office for:\n   - Application deadlines\n   - Required documents\n   - Counseling schedule\n   - Fee details"
+        ]
+      },
+      {
+        "tag": "hostel_facilities",
+        "patterns": [
+          "Tell me about hostels",
+          "Hostel facilities available",
+          "Are there separate hostels for girls?",
+          "How many hostels are there?",
+          "Hostel accommodation details",
+          "What are the hostel facilities?",
+          "Girls hostel information",
+          "Boys hostel details",
+          "Hostel room types",
+          "Hostel amenities"
+        ],
+        "responses": [
+          "JEC hostel facilities include:\n1. 10 hostels (2 girls + 8 boys hostels)\n2. Furnished rooms with beds, study tables, wardrobes\n3. 2-4 students per room\n4. Dedicated mess facility in each hostel\n5. Common rooms with TV and indoor games\n6. Reading spaces and study rooms\n7. Wi-Fi/LAN connectivity (from 2nd year)\n8. Security with CCTV surveillance\n9. Biometric entry system for girls hostel"
+        ]
+      },
+      {
+        "tag": "hostel_rules",
+        "patterns": [
+          "What are hostel rules?",
+          "Hostel regulations",
+          "Hostel timing",
+          "Can we leave hostel at night?",
+          "Hostel entry time",
+          "Hostel curfew",
+          "Girls hostel timings",
+          "Rules for staying out",
+          "Hostel leave rules",
+          "Holiday rules for hostel"
+        ],
+        "responses": [
+          "Important hostel rules at JEC:\n1. Girls hostel in-time: 7 PM\n2. Must inform warden for overnight stays\n3. Entry/exit register signing mandatory\n4. Written application needed for holiday leaves\n5. Visitors (including parents) must follow visitor policies\n6. Cooking permitted but mess fees mandatory\n7. Must maintain quiet hours\n8. Monitor/Monitress system for management\n9. Regular cleaning mandatory\n10. No pets allowed"
+        ]
+      },
+      {
+        "tag": "departments",
+        "patterns": [
+          "What departments are there?",
+          "Tell me about branches",
+          "Which branches are available?",
+          "Engineering departments",
+          "Available courses",
+          "What can I study at JEC?",
+          "Different branches in JEC",
+          "Course options",
+          "Branch information",
+          "Engineering programs"
+        ],
+        "responses": [
+          "JEC offers the following engineering branches:\n1. Civil Engineering\n2. Mechanical Engineering\n3. Electrical Engineering\n4. Computer Science & Engineering\n5. Instrumentation Engineering\n\nAll B.Tech programs are 4-year courses following AICTE norms. Each department has well-equipped laboratories and experienced faculty."
+        ]
+      },
+      {
+        "tag": "cse_department",
+        "patterns": [
+          "Tell me about CSE department",
+          "Computer Science facilities",
+          "CSE lab information",
+          "Computer department details",
+          "CS department facilities",
+          "CSE infrastructure",
+          "Computer Science labs",
+          "CSE department history",
+          "Computer Engineering department",
+          "CS branch information"
+        ],
+        "responses": [
+          "Computer Science & Engineering Department at JEC:\n1. Established: 1987\n2. Intake: 60 students\n3. Labs available:\n   - Object Oriented Programming Lab\n   - Data Structures Lab\n   - Operating Systems Lab\n   - IT Workshop (SciLab/Python)\n   - Database Management Lab\n   - Web Programming Lab\n   - Compiler Design Lab\n   - Computer Networks Lab\n4. Multiple servers and nodes for programming\n5. Curriculum as per AICTE norms"
+        ]
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "What are the fees?",
+          "Fee structure",
+          "How much is B.Tech fee?",
+          "Annual fees details",
+          "College fee information",
+          "Tuition fee amount",
+          "Payment options for fees",
+          "Fee installment options",
+          "Hostel fees",
+          "Total course fee"
+        ],
+        "responses": [
+          "Fee structure at JEC:\n1. B.Tech annual fee: Approximately ₹11,000\n2. Includes tuition and miscellaneous charges\n3. Payment methods:\n   - Online banking\n   - Debit/credit cards\n   - Digital payments\n4. Installment options available\n5. Contact finance office for:\n   - Detailed breakdown\n   - Payment schedules\n   - Refund policy"
+        ]
+      },
+      {
+        "tag": "scholarships",
+        "patterns": [
+          "What scholarships are available?",
+          "Tell me about financial aid",
+          "Scholarship information",
+          "How to get scholarship?",
+          "Merit scholarship details",
+          "SC/ST scholarship",
+          "Financial assistance",
+          "Sports scholarship",
+          "Need-based scholarship",
+          "Government scholarships"
+        ],
+        "responses": [
+          "JEC offers various scholarships:\n1. Merit-based scholarships\n2. Need-based financial aid\n3. Government scholarships for SC/ST students\n4. Sports and arts excellence scholarships\n5. Financial aid for economically weak students\n\nEligibility and application process varies by scholarship type. Contact the administration office for current opportunities and application procedures."
+        ]
+      },
+      {
+        "tag": "placement",
+        "patterns": [
+          "How are placements?",
+          "Companies visiting campus",
+          "Placement details",
+          "Campus recruitment",
+          "Job opportunities",
+          "Placement percentage",
+          "Highest package",
+          "Which companies recruit?",
+          "Training and placement",
+          "Career opportunities"
+        ],
+        "responses": [
+          "JEC Placement Information:\n1. Active Training and Placement Cell\n2. Recruiters from:\n   - IT sector\n   - Core engineering\n   - Public sector\n3. Pre-placement support:\n   - Mock interviews\n   - Resume workshops\n   - Aptitude training\n   - Soft skills development\n4. Both on-campus and off-campus opportunities\n5. Strong alumni network supporting placements"
+        ]
+      },
+      {
+        "tag": "library",
+        "patterns": [
+          "Tell me about library",
+          "Library facilities",
+          "Library timing",
+          "How many books can we borrow?",
+          "Library resources",
+          "Digital library",
+          "Library rules",
+          "Study room in library",
+          "Library services",
+          "E-journals access"
+        ],
+        "responses": [
+          "JEC Library Services:\n1. Timing: 10 AM - 4 PM (weekdays)\n2. Borrowing limit: 3 books (extended during exams)\n3. Facilities:\n   - E-journals access\n   - Digital library resources\n   - Study rooms\n   - Printing/photocopying\n   - Online catalog\n   - Reference section\n4. Special collections for research\n5. Magazine and periodical section"
+        ]
+      },
+      {
+        "tag": "sports",
+        "patterns": [
+          "What sports facilities are there?",
+          "Sports activities",
+          "Games available",
+          "Athletic facilities",
+          "Indoor games",
+          "Outdoor sports",
+          "Sports events",
+          "Gym facility",
+          "Sports competitions",
+          "Physical activities"
+        ],
+        "responses": [
+          "Sports facilities at JEC:\n1. Well-equipped gymnasium\n2. Sports activities include:\n   - Cricket\n   - Football\n   - Volleyball\n   - Kho-Kho\n   - Tug of War\n3. Indoor games in hostels:\n   - Table tennis\n   - Carrom\n   - Chess\n4. Regular sports tournaments\n5. Inter-college sports participation"
+        ]
+      },
+      {
+        "tag": "campus_life",
+        "patterns": [
+          "How is campus life?",
+          "Student activities",
+          "College culture",
+          "Extra curricular activities",
+          "Student clubs",
+          "Cultural activities",
+          "College events",
+          "Student organizations",
+          "Campus atmosphere",
+          "College life"
+        ],
+        "responses": [
+          "Campus Life at JEC includes:\n1. Student Organizations:\n   - Technical clubs\n   - Cultural clubs\n   - Sports clubs\n   - Social service clubs\n2. Events:\n   - Annual cultural fest\n   - Technical fest\n   - Sports tournaments\n3. Facilities:\n   - Cafeteria\n   - Wi-Fi campus\n   - Green environment\n4. Active student community with various cultural and technical activities"
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "How to contact college?",
+          "College address",
+          "Contact information",
+          "How to reach JEC?",
+          "College phone number",
+          "Email address",
+          "Office contact",
+          "Where is the college?",
+          "College location",
+          "Direction to college"
+        ],
+        "responses": [
+          "Contact Information for Jorhat Engineering College:\n1. Location: Jorhat, Assam\n2. Contact administration office for:\n   - Admission queries\n   - Document verification\n   - Fee payments\n   - General information\n3. Visit the college website for detailed contact information and directions"
+        ]
+      }
+    ]
+  }
