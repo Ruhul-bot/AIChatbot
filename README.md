@@ -136,7 +136,7 @@ chatbot-project/
 ### Chatbot UI
 Below is a screenshot of the chatbot interface:
 
-![Chatbot UI](static/images/jecpic.jpg)
+![Chatbot UI](static/images/jecpic.png)
 
 ---
 
